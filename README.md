@@ -16,3 +16,5 @@
 @tailwind base;  
 @tailwind components;  
 @tailwind utilities;
+
+<!-- must use => () instead of => {} to render something on screen in arrow fn -->

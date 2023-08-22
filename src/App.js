@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
-import { RxDotFilled } from 'react-icons/rx'
+// import { RxDotFilled } from 'react-icons/rx'
 import babka from '../src/assets/imgs/Babka_Baked.png'
 import babka_crumb from '../src/assets/imgs/Babka_Crumb.png'
 import babka_rolls from '../src/assets/imgs/Babka_Rolls.png'
@@ -155,14 +155,14 @@ function App() {
         </div>
       </div>
 
-      <div className='flex top-4 justify-center py-2'>
-        {/* must use => () instead of => {} to render something on screen in arrow fn */}
+      {/* <div className='flex top-4 justify-center py-2'>
         {slides.map((slide, slideIndex) => (
           <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='text-md px-1 cursor-pointer' >
-            {/* <RxDotFilled /> */}
+            <RxDotFilled />
           </div>
         ))}
-      </div>
+      </div> */}
+
     </div>
   );
 }
